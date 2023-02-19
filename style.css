@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+.box{
+    background-image: url('BK.jpg');
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 123, 0);
+    
+}
+nav{
+    flex: 1;
+    display: flex;
+    
+    color: rgb(255, 238, 4);
+}
+.header{
+        display: flex;
+        column-gap: 1em;
+        justify-content: center;
+        padding: 2px;
+        border: 3px solid;
+        background-color:lemonchiffon;
+        border-radius: 20vw;
+        align-items: center;
+        justify-content: center;
+}
+.to{
+    flex: 2;
+    text-align: center;
+    font-size: 4vw;
+    text-decoration: none;
+    color: rgb(255, 123, 0);
+
+}
+#menuheading{
+    flex: 3;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-top: 20px; */
+}
+
+nav a{
+    flex: 1;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    /* margin-top: 20px; */
+    color: rgb(255, 60, 0);
+}
+p{
+   border: 2px solid rgb(255, 123, 0);
+    color: rgb(255, 13, 5);
+    font-family: cursive;
+    font-size: 2vw;
+    width: 80vw;
+    border-radius: 20vw;
+    background-color:lemonchiffon;
+    padding: 1em;
+    text-align: justify;
+
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    flex-direction: column;
+    padding: .75em;
+    justify-content: center;
+    align-items: center;
+}
+ .main div{
+    flex: 2;
+    border-radius: 20vw;
+    margin-top: 2em;
+    }
+ .main input{
+    width:80vw;
+    flex: 1;
+    height: 2vw;
+    color: brown;
+    background-color: black;
+    border-radius: 20vw;
+    padding: .75em;
+
+ }
+
+/* .button{
+    /* display: flex; 
+    width: 20vw;
+    align-items: center;
+} */
+button{
+    background-color:lemonchiffon;
+    font-family: aerial;
+    color: rgb(255, 123, 0);
+    font-weight: bolder;
+    border: 2px solid lemonchiffon;
+    border-radius: 20vw;
+    padding: .50em;
+    font-size: 1.5vw;
+    height: 4vw;
+    width: 20vw;
+ }
+ .img{
+    margin-left: 30%;
+ }
+ .scroll p{
+    background-color: black;
+    border: 1px solid;
+    width: 50%;
+    text-align: center;
+    margin-top: 1em;
+    border-radius: 0%;
+    margin-left: 20%;
+ }
+  .menulist,#menuheading,.locations,#locheading{
+    /* background: url(bk2.jpg); 
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    /* background-position: center; */
+     background-size: cover; 
+    color: white;
+    padding: .75em;
+     background-color: rgb(0, 0, 0);  
+    }
+.menulist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+
+}
+.starters :nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.starters :nth-child(2){
+    justify-self: right;
+}
+.maincourse :nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.maincourse :nth-child(2){
+    justify-self: right;
+}
+.chats :nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.chats :nth-child(2){
+    justify-self: right;
+}  
+.starters{
+    grid: 1;
+}
+.maincourse{
+    grid: 1;
+    grid-row:span 2;
+}
+.chats{
+    grid: 1;
+}
+table{
+    width: 100%;
+    padding: 10px
+}
+th{
+    display: flex;
+} 
+table #menuheading{
+    display: flex;
+}
+.locations{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+#locheading {
+    text-align: center;
+
+}
+.title h2,th,#menuheading,#locheading{
+    color: rgb(255, 251, 0);
+}
+ table th{
+    justify-content: center;
+} 
+.title .locations{
+    font-size: 14px;
+}
+.annanagar{
+    grid:1;
+}
+.locations h2{
+    font-weight: lighter;
+}
+.button a{
+    border: 2px solid;
+    border-radius: 20vw;
+    padding: 4px;
+    background-color: bisque;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-top: -10vw; 
+    color: rgb(255, 60, 0);
+}
+a:hover{
+    color: black;
+}
